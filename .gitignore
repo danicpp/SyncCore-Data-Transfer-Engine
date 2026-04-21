@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.npm/
+.venv/
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+
+# SvelteKit / Build artifacts
+.svelte-kit/
+build/
+dist/
+.env
+.env.*
+
+# Android / Mobile
+android/
+ios/
+*.log
+*.sum
+
+# Local DB & Temporary files
+backend/datasync.db
+backend/transfers/
+frontend/src/routes/test.py
+logs.txt
+frontend_logs.txt
+tmp/
+C:\*
+D:\*
+*.webp
+*.png
+*.jpg
+ 
+# Project specific
+.DS_Store
+Thumbs.db
